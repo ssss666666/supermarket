@@ -14,13 +14,7 @@ class SupermarketApplicationTests {
     @Autowired
     private SupplierMapper supplierMapper;
 
-    @Test
-    public void testPurchaseMapper() {
-        List<SupplierDTO> supplierDTO = supplierMapper.getSupplierIdName();
-        for (SupplierDTO s: supplierDTO
-        ) {
-            System.out.println(s);
-        }
-    }
+
+
 
 }
